@@ -1,0 +1,37 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(ÀœÌÊşÿÿÿÿ8ì•ú¿¿1
+F	java:S106"+Replace this use of System.out by a logger.(–û›8í•ú¿¿1
+G	java:S106)"+Replace this use of System.out by a logger.(Õìø­8î•ú¿¿1
+L	java:S106-"+Replace this use of System.out by a logger.(¯§Ôûÿÿÿÿ8ï•ú¿¿1
+G	java:S1062"+Replace this use of System.out by a logger.(øÌˆ»8ï•ú¿¿1
+G	java:S1065"+Replace this use of System.out by a logger.(î³­8ï•ú¿¿1
+L	java:S106?"+Replace this use of System.out by a logger.(ğšÔïùÿÿÿÿ8ô•ú¿¿1
+L	java:S106C"+Replace this use of System.out by a logger.(›Ï‰Áıÿÿÿÿ8ô•ú¿¿1
+G	java:S106F"+Replace this use of System.out by a logger.(µ›Ûœ8õ•ú¿¿1
+L	java:S106H"+Replace this use of System.out by a logger.(ì²Ùßÿÿÿÿÿ8õ•ú¿¿1
+G	java:S106J"+Replace this use of System.out by a logger.(Œ­µ8õ•ú¿¿1
+G	java:S106O"+Replace this use of System.out by a logger.(È•åõ8õ•ú¿¿1
+G	java:S106R"+Replace this use of System.out by a logger.(ˆ×©¿8ö•ú¿¿1
+F	java:S106a"+Replace this use of System.out by a logger.(ûÉ™Y8ö•ú¿¿1
+L	java:S106e"+Replace this use of System.out by a logger.(øÉµ¼ÿÿÿÿÿ8ö•ú¿¿1
+_
+java:S1854t"BRemove this useless assignment to local variable "nombreDirector".(¿†­¢8ó•ú¿¿1
+G	java:S106k"+Replace this use of System.out by a logger.(ˆ–¾µ8÷•ú¿¿1
+L	java:S106r"+Replace this use of System.out by a logger.(äşÆ¼ÿÿÿÿÿ8ø•ú¿¿1
+L	java:S106s"+Replace this use of System.out by a logger.(øÉµ¼ÿÿÿÿÿ8ø•ú¿¿1
+P
+java:S1481t"3Remove this unused "nombreDirector" local variable.(¿†­¢8ô•ú¿¿1
+M	java:S106€"+Replace this use of System.out by a logger.(Ş¿·ûÿÿÿÿ8ú•ú¿¿1
+G	java:S106‡"+Replace this use of System.out by a logger.(Í·˜c8ú•ú¿¿1
+M	java:S106ˆ"+Replace this use of System.out by a logger.(È×ùÆûÿÿÿÿ8†ÂƒÀ¿1
+M	java:S106Š"+Replace this use of System.out by a logger.(±˜¨”ıÿÿÿÿ8†ÂƒÀ¿1
+G	java:S106˜"+Replace this use of System.out by a logger.(ë§‚8‡ÂƒÀ¿1
+H	java:S106Ÿ"+Replace this use of System.out by a logger.(ŸÛû˜8ˆÂƒÀ¿1
+H	java:S106 "+Replace this use of System.out by a logger.(Â€äí8ÎÏˆÀ¿1
+M	java:S106¢"+Replace this use of System.out by a logger.(‰èéıÿÿÿÿ8ÎÏˆÀ¿1
+M	java:S106¶"+Replace this use of System.out by a logger.(£´Õòıÿÿÿÿ8ĞÏˆÀ¿1
+M	java:S106¹"+Replace this use of System.out by a logger.(öğ®¬ûÿÿÿÿ8ÑÏˆÀ¿1
+o
+java:S2677À"LUse or store the value returned from "readLine" instead of throwing it away.(£­—âÿÿÿÿÿ8ù•ú¿¿1
+H	java:S106Í"+Replace this use of System.out by a logger.(Ã¡ğÄ8ÒÏˆÀ¿1
+H	java:S106Ğ"+Replace this use of System.out by a logger.(ŸòŞù8ÓÏˆÀ¿1
