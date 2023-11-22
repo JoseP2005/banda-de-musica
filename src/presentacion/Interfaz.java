@@ -174,11 +174,21 @@ public class Interfaz {
 
     private void guardarDatosCSV() {
         try (PrintWriter writer = new PrintWriter(new FileWriter("banda.csv"))) {
-            writer.println("Nombre,Fecha");
+            writer.println("Nombre,Fecha,Participantes");
             List<Actuacion> actuaciones = banda.getActuaciones();
+
             for (Actuacion actuacion : actuaciones) {
-                writer.println(actuacion.getNombre() + "," + actuacion.getFecha());
+                writer.print(actuacion.getNombre() + "," + actuacion.getFecha());
+
+                // Save participants
+                List<Participante> participantes = actuacion.getParticipantes();
+                for (Participante participante : participantes) {
+                    writer.print("," + participante.getClass().getSimpleName() + ":" + participante.getNombre());
+                }
+
+                writer.println();
             }
+
             System.out.println("Datos guardados exitosamente en formato CSV.");
         } catch (IOException e) {
             e.printStackTrace();
@@ -194,14 +204,39 @@ public class Interfaz {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split(",");
-                if (parts.length == 2) {
+                if (parts.length >= 2) {
                     String nombre = parts[0];
                     LocalDateTime fecha = LocalDateTime.parse(parts[1]);
+
                     Actuacion nuevaActuacion = new Actuacion(nombre);
                     nuevaActuacion.setFecha(fecha);
+
+                    // Load participants
+                    for (int i = 2; i < parts.length; i++) {
+                        String[] participantInfo = parts[i].split(":");
+                        if (participantInfo.length == 2) {
+                            String tipoParticipante = participantInfo[0];
+                            String nombreParticipante = participantInfo[1];
+
+                            switch (tipoParticipante) {
+                                case "Director":
+                                    nuevaActuacion.agregarParticipante(new Director(nombreParticipante));
+                                    break;
+                                case "Socio":
+                                    nuevaActuacion.agregarParticipante(new Socio(nombreParticipante, 0)); // You may need to adjust this
+                                    break;
+                                case "Musico":
+                                    nuevaActuacion.agregarParticipante(new Musico(nombreParticipante, 0)); // You may need to adjust this
+                                    break;
+                                // Add more cases for other types of participants if needed
+                            }
+                        }
+                    }
+
                     banda.agregarActuacion(nuevaActuacion);
                 }
             }
+
             System.out.println("Datos cargados exitosamente desde formato CSV.");
         } catch (IOException e) {
             e.printStackTrace();

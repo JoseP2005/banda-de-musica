@@ -29,9 +29,12 @@ G	java:S106˜"+Replace this use of System.out by a logger.(ë§‚8‡ÂƒÀ¿1
 H	java:S106Ÿ"+Replace this use of System.out by a logger.(ŸÛû˜8ˆÂƒÀ¿1
 H	java:S106 "+Replace this use of System.out by a logger.(Â€äí8ÎÏˆÀ¿1
 M	java:S106¢"+Replace this use of System.out by a logger.(‰èéıÿÿÿÿ8ÎÏˆÀ¿1
-M	java:S106¶"+Replace this use of System.out by a logger.(£´Õòıÿÿÿÿ8ĞÏˆÀ¿1
-M	java:S106¹"+Replace this use of System.out by a logger.(öğ®¬ûÿÿÿÿ8ÑÏˆÀ¿1
+M	java:S106À"+Replace this use of System.out by a logger.(£´Õòıÿÿÿÿ8ÒÏˆÀ¿1
+M	java:S106Ã"+Replace this use of System.out by a logger.(öğ®¬ûÿÿÿÿ8ÓÏˆÀ¿1
+p
+java:S3776Ç"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Šˆ’œ8´ä­À¿1
 o
-java:S2677À"LUse or store the value returned from "readLine" instead of throwing it away.(£­—âÿÿÿÿÿ8ù•ú¿¿1
-H	java:S106Í"+Replace this use of System.out by a logger.(Ã¡ğÄ8ÒÏˆÀ¿1
-H	java:S106Ğ"+Replace this use of System.out by a logger.(ŸòŞù8ÓÏˆÀ¿1
+java:S2677Ê"LUse or store the value returned from "readLine" instead of throwing it away.(£­—âÿÿÿÿÿ8µä­À¿1
+D	java:S131İ""Add a default case to this switch.(ÔïÅ£ıÿÿÿÿ8·ä­À¿1
+H	java:S106ğ"+Replace this use of System.out by a logger.(Ã¡ğÄ8·ä­À¿1
+H	java:S106ó"+Replace this use of System.out by a logger.(ŸòŞù8·ä­À¿1
